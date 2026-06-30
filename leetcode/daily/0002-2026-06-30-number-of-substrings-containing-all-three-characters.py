@@ -37,12 +37,15 @@ https://leetcode.com/problems/number-of-substrings-containing-all-three-characte
 
 class Solution:
     def numberOfSubstrings(self, s: str) -> int:
-        last_seen = {'a': -1, 'b': -1, 'c': -1}
+        last_seen = {'a': -1, 'b': -1, 'c': -1}  
         count = 0
 
-        for i, ch in enumerate(s):
+        for i, ch in enumerate(s): #목록에 자동으로 번호(인덱스)를 매겨주는 함수
+                                    #JS의 for (let i=0; ...; i++)처럼 직접 카운터를 만들고 i++로 늘리는 작업을 파이썬에서는 enumerate가 자동으로 처리해줌
+                                    #for i, ch in enumerate(s): → i는 위치, ch는 글자
+          
             last_seen[ch] = i   # 현재 글자의 마지막 등장 위치 갱신
-            j = min(last_seen['a'], last_seen['b'], last_seen['c'])
+            j = min(last_seen['a'], last_seen['b'], last_seen['c']) #괄호 안 값들 중 가장 작은 값을 반환 ex) min(3, 7, 1) → 1
             count += j + 1       # j+1개의 부분문자열이 조건 만족
 
         return count
