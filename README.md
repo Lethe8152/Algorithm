@@ -46,3 +46,4 @@ leetcode/
 | 풀이# | 날짜 | Title | Difficulty | Solution |
 |------|------|-------|-----------|----------|
 | 0001 | 2026-06-29 | Number of Strings That Appear as Substrings in Word | Easy | [Python](./leetcode/daily/0001-2026-06-29-number-of-strings-that-appear-as-substrings-in-word.py) |
+| 0002 | 2026-06-30 | Number of Substrings Containing All Three Characters | Medium | [Python](./leetcode/daily/0002-2026-06-30-number-of-substrings-containing-all-three-characters.py) |
