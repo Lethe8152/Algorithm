@@ -34,7 +34,7 @@ class Solution:
         answer = []
         for i in range(1, n + 1):   # range(1, n+1) → 1, 2, ..., n (끝값은 포함 안 됨)
             if i % 15 == 0:         # % 는 나머지 연산자. 나머지가 0이면 나누어떨어짐
-                answer.append("FizzBuzz")
+                answer.append("FizzBuzz") # .apeend는 리스트(List)의 맨 마지막에 단일 요소를 추가하는 내장 메서드
             elif i % 3 == 0:
                 answer.append("Fizz")
             elif i % 5 == 0:
