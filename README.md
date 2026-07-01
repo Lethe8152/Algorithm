@@ -40,6 +40,7 @@ leetcode/
 | # | Title | Difficulty | Solution |
 |---|-------|-----------|----------|
 | 1 | Two Sum | Easy | [Python](./leetcode/easy/0001-two-sum.py) |
+| 2 | Fizz Buzz | Easy | [Python](./leetcode/easy/0002-fizz-buzz.py) |
 
 ## 데일리 챌린지 목록
 
