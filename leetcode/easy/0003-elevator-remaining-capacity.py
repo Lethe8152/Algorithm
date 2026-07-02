@@ -38,7 +38,7 @@ from typing import List
 
 
 class Solution:
-    def remainingCapacity(self, weights: List[int], limit: int) -> int:
+    def remainingCapacity(self, weights: List[int], limit: int) -> int: #self는 뭘까?
         total = 0
         count = 0
         for w in weights:
