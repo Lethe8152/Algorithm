@@ -41,6 +41,7 @@ leetcode/
 |---|-------|-----------|----------|
 | 1 | Two Sum | Easy | [Python](./leetcode/easy/0001-two-sum.py) |
 | 2 | Fizz Buzz | Easy | [Python](./leetcode/easy/0002-fizz-buzz.py) |
+| 3 | 엘리베이터 남은 정원 (자작) | Easy | [Python](./leetcode/easy/0003-elevator-remaining-capacity.py) |
 
 ## 데일리 챌린지 목록
 
